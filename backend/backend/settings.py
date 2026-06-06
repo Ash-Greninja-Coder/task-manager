@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-+_jh1=flh^ukhben*^hw4-(l@*uwiu=j&q-z2u*gg$7vk2e(p0
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["https://task-manager-backend-41j6.onrender.com/"]
+ALLOWED_HOSTS = ["task-manager-backend-41j6.onrender.com","localhost"]
 
 INSTALLED_APPS = [
     "corsheaders",
@@ -76,7 +76,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://task-manager-frontend.onrender.com",
+    "https://task-manager-frontend-2mn2.onrender.com",
 ]
 CORS_ALLOW_CREDENTIALS = True
 
