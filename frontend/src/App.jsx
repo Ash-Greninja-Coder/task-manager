@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import api from "./Api";
-import Login from "./Login";
+import api from "./api";
+import Login from "./login";
 import Logout from "./Logout";
 
 function App() {
