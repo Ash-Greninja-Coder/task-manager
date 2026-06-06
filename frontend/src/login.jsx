@@ -1,5 +1,5 @@
 import { useState } from "react";
-import api from "./api";
+import api from "./Api";
 
 function Login({ setAuth }) {
   const [isSignup, setIsSignup] = useState(false);

@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-+_jh1=flh^ukhben*^hw4-(l@*uwiu=j&q-z2u*gg$7vk2e(p0
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://task-manager-backend-41j6.onrender.com/"]
 
 INSTALLED_APPS = [
     "corsheaders",
